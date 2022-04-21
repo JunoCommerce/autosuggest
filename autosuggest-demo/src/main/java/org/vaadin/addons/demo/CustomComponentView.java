@@ -21,7 +21,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @Route(value = "")
-@Theme(value = Lumo.class)
 public class CustomComponentView extends VerticalLayout {
     @Data
     @AllArgsConstructor
